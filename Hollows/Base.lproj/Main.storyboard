@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hollows" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Mb-jf-dmq" userLabel="TopContainer">
+                                <rect key="frame" x="0.0" y="20" width="414" height="219"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UjU-o1-fC6">
+                                        <rect key="frame" x="59" y="62" width="296" height="95"/>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="296" id="ACY-Ux-jDN"/>
+                                            <constraint firstAttribute="height" constant="95" id="Nk5-f8-yla"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Welcome to the hollows">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="36" name="Copperplate"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="UjU-o1-fC6" firstAttribute="centerX" secondItem="8Mb-jf-dmq" secondAttribute="centerX" id="exz-os-J02"/>
+                                    <constraint firstItem="UjU-o1-fC6" firstAttribute="centerY" secondItem="8Mb-jf-dmq" secondAttribute="centerY" id="grC-Cb-DuX"/>
+                                    <constraint firstItem="UjU-o1-fC6" firstAttribute="centerY" secondItem="8Mb-jf-dmq" secondAttribute="centerY" id="haW-lE-Jmv"/>
+                                    <constraint firstItem="UjU-o1-fC6" firstAttribute="centerX" secondItem="8Mb-jf-dmq" secondAttribute="centerX" id="l6y-ix-lYy"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="94i-VT-06g" userLabel="BottomContainer">
+                                <rect key="frame" x="0.0" y="534" width="414" height="202"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RgI-KN-i8J">
+                                        <rect key="frame" x="172" y="72.666666666666629" width="70" height="57"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="70" id="85j-28-2IG"/>
+                                            <constraint firstAttribute="height" constant="57" id="IhB-K9-IDe"/>
+                                        </constraints>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Start">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.77339702072538863" green="0.77339702072538863" blue="0.77339702072538863" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="36" name="Noteworthy-Light"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="RgI-KN-i8J" firstAttribute="centerY" secondItem="94i-VT-06g" secondAttribute="centerY" id="Rdl-AY-SLx"/>
+                                    <constraint firstItem="RgI-KN-i8J" firstAttribute="centerX" secondItem="94i-VT-06g" secondAttribute="centerX" id="je5-Sj-8MM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gmo-cS-n8E" userLabel="MiddleContainer">
+                                <rect key="frame" x="0.0" y="239" width="414" height="295"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="moths" translatesAutoresizingMaskIntoConstraints="NO" id="nvm-3X-hBx">
+                                        <rect key="frame" x="0.0" y="8" width="414" height="279"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gmo-cS-n8E" firstAttribute="leading" secondItem="94i-VT-06g" secondAttribute="leading" id="0xH-qt-LVU"/>
+                            <constraint firstItem="Gmo-cS-n8E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3ng-JM-3Vl"/>
+                            <constraint firstItem="94i-VT-06g" firstAttribute="top" secondItem="Gmo-cS-n8E" secondAttribute="bottom" id="4tt-os-eDo"/>
+                            <constraint firstItem="Gmo-cS-n8E" firstAttribute="top" secondItem="8Mb-jf-dmq" secondAttribute="bottom" id="5jh-VN-ckT"/>
+                            <constraint firstItem="8Mb-jf-dmq" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GbU-cy-YRI"/>
+                            <constraint firstItem="94i-VT-06g" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="K7v-TC-69h"/>
+                            <constraint firstItem="Gmo-cS-n8E" firstAttribute="trailing" secondItem="94i-VT-06g" secondAttribute="trailing" id="SwD-YY-IoY"/>
+                            <constraint firstItem="94i-VT-06g" firstAttribute="top" secondItem="Gmo-cS-n8E" secondAttribute="bottom" id="TJQ-Dn-Xgq"/>
+                            <constraint firstItem="Gmo-cS-n8E" firstAttribute="top" secondItem="8Mb-jf-dmq" secondAttribute="bottom" id="U6x-hO-sGz"/>
+                            <constraint firstItem="94i-VT-06g" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XR8-bZ-OTz"/>
+                            <constraint firstItem="Gmo-cS-n8E" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="239" id="ZH8-hL-lhr"/>
+                            <constraint firstItem="94i-VT-06g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ZwJ-N3-PQ2"/>
+                            <constraint firstItem="8Mb-jf-dmq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="ciK-5Q-MCX"/>
+                            <constraint firstAttribute="bottom" secondItem="Gmo-cS-n8E" secondAttribute="bottom" constant="202" id="jck-Vp-FT5"/>
+                            <constraint firstItem="8Mb-jf-dmq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z9T-aG-ALE"/>
+                            <constraint firstItem="Gmo-cS-n8E" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="zaH-Tb-Oop"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.78260869565219" y="127.98913043478262"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="moths" width="213.33332824707031" height="160"/>
+    </resources>
+</document>
