@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        let navigationFont = UIFont(name: "Noteworthy-Light", size: 18)
+//        let navigationFontAttributes = [NSAttributedString.Key.font : navigationFont]
+//        UINavigationBar.appearance().titleTextAttributes = navigationFontAttributes
         return true
     }
 
