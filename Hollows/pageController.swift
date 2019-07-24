@@ -13,22 +13,25 @@ class pageController: UIViewController {
     @IBOutlet weak var choice1: UIButton!
     @IBOutlet weak var choice2: UIButton!
     
-    
     let story1 = "You wake up with amnesia"
     let lchoice1 = "Run!"
-    let rchoice1 = "Hide"
+    let rchoice1 = "Hie"
     
     var storyIndex = 1
     
     
     @IBAction func onButtonPressed(_ sender: UIButton) {
+        if sender.tag == 1 {
+            choice1.setTitle("A", for: .normal)
+        }
+        
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        choice1.setTitle("A", for: .normal)
-        
+        choice1.setTitle(lchoice1, for: .normal)
+        choice2.setTitle(rchoice1, for: .normal)
         // Do any additional setup after loading the view.
     }
     
