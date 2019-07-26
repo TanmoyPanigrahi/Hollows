@@ -11,11 +11,11 @@ import UIKit
 
 
 class StoryTree : pageController {
-    var curr: Node?
-
-    //    var fPointer: UnsafeMutablePointer<Node> = UnsafeMutablePointer.allocate(capacity: 1)
+    
+    lazy var curr = lvl1
     
     let lvl1 = Node(value: "First Chapter", lchoice: "Run", rchoice: "Sneak")
+    
     
     let lvl2_1 = Node(value: "Second Chapter", lchoice: "Run", rchoice: "Sneak")
     let lvl2_2 = Node(value: "Second Chapter", lchoice: "Run", rchoice: "Sneak")
@@ -28,7 +28,7 @@ class StoryTree : pageController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        traversal(node: lvl1)
+        traversal(node: curr)
         
         lvl1.add(child: lvl2_1)
         lvl1.add(child: lvl2_2)
@@ -41,7 +41,7 @@ class StoryTree : pageController {
     
     override func onButtonPressed(_ sender: UIButton) {
         if sender.tag == 1 {
-            //traversal(curr.child1)
+            
         } else if sender.tag == 2 {
             //curr = curr.child2
         }

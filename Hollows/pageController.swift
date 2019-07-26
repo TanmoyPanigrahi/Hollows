@@ -17,6 +17,7 @@ class pageController: UIViewController {
     let lchoice1 = "Run!"
     let rchoice1 = "Hie"
     
+    
     var storyIndex = 1
     
     
