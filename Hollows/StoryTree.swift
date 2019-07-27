@@ -13,6 +13,7 @@ import UIKit
 class StoryTree : pageController {
     
     lazy var curr = lvl1
+    lazy var chapterEnd = false
     
     let lvl1 = Node(value: "First Chapter", lchoice: "Run", rchoice: "Sneak")
     
@@ -33,6 +34,20 @@ class StoryTree : pageController {
     let lvl4_6 = Node(value: "Fourth Chapter6", lchoice: "Run", rchoice: "Sneak")
     let lvl4_7 = Node(value: "Fourth Chapter7", lchoice: "Run", rchoice: "Sneak")
     let lvl4_8 = Node(value: "Dead Chapter2", lchoice: "Run", rchoice: "Sneak")
+    
+    let lvl5_1 = Node(value: "Dead Chapter 3", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_2 = Node(value: "Fifth Chapter2", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_3 = Node(value: "Fifth Chapter3", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_4 = Node(value: "Dead Chapter 4", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_5 = Node(value: "Fifth Chapter5", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_6 = Node(value: "Dead Chapter 5", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_7 = Node(value: "Fifth Chapter7", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_8 = Node(value: "Dead Chapter 6", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_9 = Node(value: "Dead Chapter 7", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_10 = Node(value: "Fifth Chapter10", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_11 = Node(value: "Dead Chapter 8", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_12 = Node(value: "Fifth Chapter12", lchoice: "Run", rchoice: "Sneak")
+    
     
     
     
