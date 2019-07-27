@@ -25,6 +25,10 @@ class StoryTree : pageController {
     let lvl3_3 = Node(value: "Third Chapter3", lchoice: "Run", rchoice: "Sneak")
     let lvl3_4 = Node(value: "Third Chapter4", lchoice: "Run", rchoice: "Sneak")
     
+    let lvl4_1 = Node(value: "Dead Chapter1", lchoice: "Run", rchoice: "Sneak")
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,6 +40,8 @@ class StoryTree : pageController {
         lvl2_1.add(child: lvl3_2)
         lvl2_2.add(child: lvl3_3)
         lvl2_2.add(child: lvl3_4)
+        
+        lvl3_1.add(child: lvl4_1)
         
         traversal(node: curr)
     }
@@ -61,7 +67,6 @@ class StoryTree : pageController {
             choice1.setTitle(node?.lchoice, for: .normal)
             choice2.setTitle(node?.rchoice, for: .normal)
             if node?.children.isEmpty == true {
-                storyTextView.text = "You died"
                 choice1.isHidden = true
                 choice2.isHidden = true
             }
