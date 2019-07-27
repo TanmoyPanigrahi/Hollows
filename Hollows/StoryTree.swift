@@ -85,6 +85,20 @@ class StoryTree : pageController {
         lvl3_4.add(child: lvl4_7)
         lvl3_4.add(child: lvl4_8)
         
+      
+        lvl4_2.add(child: lvl5_1)
+        lvl4_2.add(child: lvl5_2)
+        lvl4_3.add(child: lvl5_3)
+        lvl4_3.add(child: lvl5_4)
+        lvl4_4.add(child: lvl5_5)
+        lvl4_4.add(child: lvl5_6)
+        lvl4_5.add(child: lvl5_7)
+        lvl4_5.add(child: lvl5_8)
+        lvl4_6.add(child: lvl5_9)
+        lvl4_6.add(child: lvl5_10)
+        lvl4_7.add(child: lvl5_11)
+        lvl4_7.add(child: lvl5_12)
+        
         traversal(node: curr)
     }
     
