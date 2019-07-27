@@ -45,7 +45,7 @@ class StoryTree : pageController {
             if (curr.children.isEmpty != true) {
                 curr = curr.children[0]
                 traversal(node: curr)
-            } 
+            }
             
         } else if sender.tag == 2 {
             if (curr.children.isEmpty != true) {
@@ -61,6 +61,7 @@ class StoryTree : pageController {
             choice1.setTitle(node?.lchoice, for: .normal)
             choice2.setTitle(node?.rchoice, for: .normal)
             if node?.children.isEmpty == true {
+                storyTextView.text = "You died"
                 choice1.isHidden = true
                 choice2.isHidden = true
             }
