@@ -36,19 +36,23 @@ class StoryTree : pageController {
     let lvl4_8 = Node(value: "Dead Chapter2", lchoice: "Run", rchoice: "Sneak")
     
     let lvl5_1 = Node(value: "Dead Chapter 3", lchoice: "Run", rchoice: "Sneak")
-    let lvl5_2 = Node(value: "Fifth Chapter2", lchoice: "Run", rchoice: "Sneak")
-    let lvl5_3 = Node(value: "Fifth Chapter3", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_2 = Node(value: "Fifth Chapter1", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_3 = Node(value: "Fifth Chapter2", lchoice: "Run", rchoice: "Sneak")
     let lvl5_4 = Node(value: "Dead Chapter 4", lchoice: "Run", rchoice: "Sneak")
-    let lvl5_5 = Node(value: "Fifth Chapter5", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_5 = Node(value: "Fifth Chapter3", lchoice: "Run", rchoice: "Sneak")
     let lvl5_6 = Node(value: "Dead Chapter 5", lchoice: "Run", rchoice: "Sneak")
-    let lvl5_7 = Node(value: "Fifth Chapter7", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_7 = Node(value: "Fifth Chapter4", lchoice: "Run", rchoice: "Sneak")
     let lvl5_8 = Node(value: "Dead Chapter 6", lchoice: "Run", rchoice: "Sneak")
     let lvl5_9 = Node(value: "Dead Chapter 7", lchoice: "Run", rchoice: "Sneak")
-    let lvl5_10 = Node(value: "Fifth Chapter10", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_10 = Node(value: "Fifth Chapter5", lchoice: "Run", rchoice: "Sneak")
     let lvl5_11 = Node(value: "Dead Chapter 8", lchoice: "Run", rchoice: "Sneak")
-    let lvl5_12 = Node(value: "Fifth Chapter12", lchoice: "Run", rchoice: "Sneak")
+    let lvl5_12 = Node(value: "Fifth Chapter6", lchoice: "Run", rchoice: "Sneak")
     
-    
+    let lvl6_1 = Node(value: "Dead Chapter 9", lchoice: "Run", rchoice: "Sneak")
+    let lvl6_2 = Node(value: "Sixth Chapter1", lchoice: "Run", rchoice: "Sneak")
+    let lvl6_3 = Node(value: "Sixth Chapter2", lchoice: "Run", rchoice: "Sneak")
+    let lvl6_4 = Node(value: "Sixth Chapter3", lchoice: "Run", rchoice: "Sneak")
+    let lvl6_5 = Node(value: "Dead Chapter 10", lchoice: "Run", rchoice: "Sneak")
     
     
     
