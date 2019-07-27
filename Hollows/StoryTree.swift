@@ -60,7 +60,10 @@ class StoryTree : pageController {
             storyTextView.text = node?.value
             choice1.setTitle(node?.lchoice, for: .normal)
             choice2.setTitle(node?.rchoice, for: .normal)
-
+            if node?.children.isEmpty == true {
+                choice1.isHidden = true
+                choice2.isHidden = true
+            }
         } else {
             storyTextView.text = "You died"
             choice1.isHidden = true
