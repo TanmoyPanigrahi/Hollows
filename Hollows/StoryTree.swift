@@ -64,10 +64,6 @@ class StoryTree : pageController {
     let lvl8_3 = Node(value: "Dead Chapter 14", lchoice: "Run", rchoice: "Sneak")
     
     
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -79,7 +75,15 @@ class StoryTree : pageController {
         lvl2_2.add(child: lvl3_3)
         lvl2_2.add(child: lvl3_4)
         
+        
         lvl3_1.add(child: lvl4_1)
+        lvl3_1.add(child: lvl4_2)
+        lvl3_2.add(child: lvl4_3)
+        lvl3_2.add(child: lvl4_4)
+        lvl3_3.add(child: lvl4_5)
+        lvl3_3.add(child: lvl4_6)
+        lvl3_4.add(child: lvl4_7)
+        lvl3_4.add(child: lvl4_8)
         
         traversal(node: curr)
     }
