@@ -59,6 +59,10 @@ class StoryTree : pageController {
     let lvl7_3 = Node(value: "Seventh Chapter2", lchoice: "Run", rchoice: "Sneak")
     let lvl7_4 = Node(value: "Dead Chapter 12", lchoice: "Run", rchoice: "Sneak")
     
+    let lvl8_1 = Node(value: "Dead Chapter 13", lchoice: "Run", rchoice: "Sneak")
+    let lvl8_2 = Node(value: "Eighth Chapter1", lchoice: "Run", rchoice: "Sneak")
+    let lvl8_3 = Node(value: "Dead Chapter 14", lchoice: "Run", rchoice: "Sneak")
+    
     
     
     
