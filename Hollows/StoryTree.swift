@@ -18,8 +18,8 @@ class StoryTree : pageController {
     let lvl1 = Node(value: "First Chapter", lchoice: "Run", rchoice: "Sneak")
     
     
-    let lvl2_1 = Node(value: "Second Chapter1", lchoice: "Run", rchoice: "Sneak")
-    let lvl2_2 = Node(value: "Second Chapter2", lchoice: "Run", rchoice: "Sneak")
+    let lvl2_1 = Node(value: "Second Chapter1", lchoice: "Ru", rchoice: "Snak")
+    let lvl2_2 = Node(value: "Second Chapter2", lchoice: "Rn", rchoice: "Snek")
     
     let lvl3_1 = Node(value: "Third Chapter1", lchoice: "Run", rchoice: "Sneak")
     let lvl3_2 = Node(value: "Third Chapter2", lchoice: "Run", rchoice: "Sneak")
@@ -75,7 +75,6 @@ class StoryTree : pageController {
         lvl2_2.add(child: lvl3_3)
         lvl2_2.add(child: lvl3_4)
         
-        
         lvl3_1.add(child: lvl4_1)
         lvl3_1.add(child: lvl4_2)
         lvl3_2.add(child: lvl4_3)
@@ -84,7 +83,6 @@ class StoryTree : pageController {
         lvl3_3.add(child: lvl4_6)
         lvl3_4.add(child: lvl4_7)
         lvl3_4.add(child: lvl4_8)
-        
       
         lvl4_2.add(child: lvl5_1)
         lvl4_2.add(child: lvl5_2)
@@ -123,10 +121,6 @@ class StoryTree : pageController {
         lvl7_2.add(child: lvl8_2)
         lvl7_3.add(child: lvl8_2)
         lvl7_3.add(child: lvl8_3)
-        
-        
-        
-        
         
         traversal(node: curr)
     }
