@@ -15,10 +15,11 @@ class StoryTree : pageController {
     lazy var curr = lvl1
     lazy var chapterEnd = false
     
-    let lvl1 = Node(value: "You open the door and reach a hallway. You hear footsteps, stomping towards you from your right. \"That’s the Earthlings. They must have figured out that we have escaped. We have to find a way out, and quickly. I could have taken them all out but I do not have my blaster on me. We could risk sneaking past them, but I am not sure if you have had your powers come back to you yet.\" Just as Deus finished speaking, I noticed a vent on the left side of the hallway. It was large enough to fit the both of us but we had no clue about where it would lead us to. I had to make a choice. What was it going to be? Trying to sneak past the Earthlings or go through the vent?", lchoice: "Vent", rchoice: "Sneak")
+    let lvl1 = Node(value: "You open the door and reach a hallway. You hear footsteps, stomping towards you from your right. \"That’s the Earthlings. They must have figured out that we have escaped. We have to find a way out, and quickly. I could have taken them all out but I do not have my blaster on me. We could risk sneaking past them, but I am not sure if you have had your powers come back to you yet.\" Just as Deus finishes speaking, you notice a vent on the left side of the hallway. It was large enough to fit the both of you but you have no clue about where it would lead you to. You have to make a choice. What is it going to be? Trying to sneak past the Earthlings or go through the vent?", lchoice: "Vent", rchoice: "Sneak")
     
     
-    let lvl2_1 = Node(value: "Second Chapter1", lchoice: "Ru", rchoice: "Snak")
+    let lvl2_1 = Node(value: " \"Deus, trying to go past them is too risky. Let us try to see what’s past the vent instead. \" You use a boost from Deus to open and get into the vent and pull him up. Just as you do, silence softly surges upwards. You just make it in time, but Deus forgets to close the vent on his way up. Just as you and Deus reach the other end of the vent you hear a grunty voice yell out - \"They must have gone into the vents.  Quick! Half of you, follow Dave into towards the Red Room! DO NOT LET THEM ESCAPE!\" You jump down the vent into a room with nauseating red lights and Deus follows suit. There is a whole showcase of gadgets in shelves that filled the room. You have to choose between focusing on gearing up or finding a way out.", lchoice: "Gear Up", rchoice: "Escape")
+    
     let lvl2_2 = Node(value: "Second Chapter2", lchoice: "Rn", rchoice: "Snek")
     
     let lvl3_1 = Node(value: "Third Chapter1", lchoice: "Run", rchoice: "Sneak")
