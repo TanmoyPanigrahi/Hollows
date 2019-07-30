@@ -138,9 +138,10 @@
                                             <accessibilityTraits key="traits" notEnabled="YES"/>
                                         </accessibility>
                                         <attributedString key="attributedText">
-                                            <fragment content="You wake up dazed. ">
+                                            <fragment>
+                                                <mutableString key="content">You wake up blurry eyed, with pain searing through your left leg. You look around the dimly lit room to find yourself swarmed with piles of corpses. The floor is bloodied with guts all over, but you succeed in not throwing up and manage to trudge along towards the door. “Lenny, it has finally happened! We have to leave. Now!” said Deus, your ship’s captain. After noticing your limp, he pushed a couple of buttons on the device on your wrist that changed its glow from a bloody red to a sunset orange. Your senses shot up, your legs felt as good as new, and your memories came rushing back. You were a part of an exploration squadron from Mars but your ship had crashed after coming in contact with the Earth’s atmosphere. </mutableString>
                                                 <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="NSColor" red="0.93299888959390864" green="0.93299888959390864" blue="0.93299888959390864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" metaFont="system" size="14.666666984558105"/>
                                                     <real key="NSKern" value="0.0"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -155,7 +156,7 @@
 Cg
 </string>
                                                 <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="NSColor" red="0.93299888959390864" green="0.93299888959390864" blue="0.93299888959390864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" metaFont="system" size="12"/>
                                                     <real key="NSKern" value="0.0"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -170,7 +171,7 @@ Cg
 Cg
 </string>
                                                 <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="NSColor" red="0.93299888959390864" green="0.93299888959390864" blue="0.93299888959390864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" metaFont="system" size="12"/>
                                                     <real key="NSKern" value="0.0"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -180,10 +181,9 @@ Cg
                                                     <real key="NSStrokeWidth" value="0.0"/>
                                                 </attributes>
                                             </fragment>
-                                            <fragment>
-                                                <string key="content">You find yourself in the far corner of a dark room with the only light coming from the cracks underneath the only door to the room. Your right leg hurts and you notice an odd mess of plastic and glass, the size of a nickel, starting to glow blood red on your right wrist. Your senses seem to be coming back to you, but you still don’t seem to remember how you got to where you are. As you get up and trudge along towards the door, you hear footsteps: lots of them and getting louder by the second. </string>
+                                            <fragment content="You are Evelyn.">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="NSColor" red="0.93299888959390864" green="0.93299888959390864" blue="0.93299888959390864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" metaFont="system" size="14.666666984558105"/>
                                                     <real key="NSKern" value="0.0"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -198,7 +198,7 @@ Cg
 Cg
 </string>
                                                 <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="NSColor" red="0.93299888959390864" green="0.93299888959390864" blue="0.93299888959390864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" metaFont="system" size="12"/>
                                                     <real key="NSKern" value="0.0"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -208,25 +208,9 @@ Cg
                                                     <real key="NSStrokeWidth" value="0.0"/>
                                                 </attributes>
                                             </fragment>
-                                            <fragment>
-                                                <string key="content" base64-UTF8="YES">
-Cg
-</string>
+                                            <fragment content="The captain of Gaia-427.">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="12"/>
-                                                    <real key="NSKern" value="0.0"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                        <tabStops/>
-                                                    </paragraphStyle>
-                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <real key="NSStrokeWidth" value="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">Your legs feels like it is burning, but keep dragging yourself towards the door. You want to know where you are, and how you got there. You think about all the possible scenarios - kidnapping, drugging, or maybe just one of those weird dreams perhaps? Suddenly, silence softly surged upwards. You no longer heard any footsteps. It was the kind of quiet that you had felt somewhere before.</string>
-                                                <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="NSColor" red="0.93299888959390864" green="0.93299888959390864" blue="0.93299888959390864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" metaFont="system" size="14.666666984558105"/>
                                                     <real key="NSKern" value="0.0"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -241,92 +225,7 @@ Cg
 Cg
 </string>
                                                 <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="12"/>
-                                                    <real key="NSKern" value="0.0"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                        <tabStops/>
-                                                    </paragraphStyle>
-                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <real key="NSStrokeWidth" value="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                                <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="12"/>
-                                                    <real key="NSKern" value="0.0"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                        <tabStops/>
-                                                    </paragraphStyle>
-                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <real key="NSStrokeWidth" value="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content">“Stella, it’s happening! We have to leave. Now!” said a middle aged but fairly athletic man with silver hair. “Can you walk? Let me reprogram your processors.” The man grabs your right hand, pushes a couple of buttons on the device on your wrist, which changed color to a sunset orange. Your senses suddenly fire up, and you feel like you’ve been injected with a shot of adderall. Your memories come rushing back to you. </string>
-                                                <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="14.666666984558105"/>
-                                                    <real key="NSKern" value="0.0"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                        <tabStops/>
-                                                    </paragraphStyle>
-                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <real key="NSStrokeWidth" value="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                                <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="12"/>
-                                                    <real key="NSKern" value="0.0"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                        <tabStops/>
-                                                    </paragraphStyle>
-                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <real key="NSStrokeWidth" value="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                                <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="12"/>
-                                                    <real key="NSKern" value="0.0"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                        <tabStops/>
-                                                    </paragraphStyle>
-                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <real key="NSStrokeWidth" value="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment content="You are Stella. The last Martian. The first Earthling. ">
-                                                <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="14.666666984558105"/>
-                                                    <real key="NSKern" value="0.0"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                        <tabStops/>
-                                                    </paragraphStyle>
-                                                    <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <real key="NSStrokeWidth" value="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                            <fragment>
-                                                <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                                <attributes>
-                                                    <color key="NSColor" red="0.8265188769035533" green="0.8265188769035533" blue="0.8265188769035533" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="NSColor" red="0.93299888959390864" green="0.93299888959390864" blue="0.93299888959390864" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <font key="NSFont" metaFont="system" size="12"/>
                                                     <real key="NSKern" value="0.0"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="20" defaultTabInterval="36" tighteningFactorForTruncation="0.0">

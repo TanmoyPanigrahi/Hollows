@@ -15,7 +15,7 @@ class StoryTree : pageController {
     lazy var curr = lvl1
     lazy var chapterEnd = false
     
-    let lvl1 = Node(value: "First Chapter", lchoice: "Run", rchoice: "Sneak")
+    let lvl1 = Node(value: "You open the door and reach a hallway. You hear footsteps, stomping towards you from your right. \"That’s the Earthlings. They must have figured out that we have escaped. We have to find a way out, and quickly. I could have taken them all out but I do not have my blaster on me. We could risk sneaking past them, but I am not sure if you have had your powers come back to you yet.\" Just as Deus finished speaking, I noticed a vent on the left side of the hallway. It was large enough to fit the both of us but we had no clue about where it would lead us to. I had to make a choice. What was it going to be? Trying to sneak past the Earthlings or go through the vent?", lchoice: "Vent", rchoice: "Sneak")
     
     
     let lvl2_1 = Node(value: "Second Chapter1", lchoice: "Ru", rchoice: "Snak")
@@ -46,6 +46,7 @@ class StoryTree : pageController {
     let lvl7_1 = Node(value: "Dead Chapter 11", lchoice: "Run", rchoice: "Sneak")
     let lvl7_2 = Node(value: "Seventh Chapter1", lchoice: "Run", rchoice: "Sneak")
     let lvl7_3 = Node(value: "Dead Chapter 12", lchoice: "Run", rchoice: "Sneak")
+    
     
     
     override func viewDidLoad() {
