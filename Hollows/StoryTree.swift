@@ -27,7 +27,8 @@ class StoryTree : pageController {
     
     let lvl3_2 = Node(value: "\"We don’t have time for this we need to get out of here.\" You notice two doors in the room. Deus tried to get the door on the right to open up but it doesn’t budge an inch. You try the door on the left and Voila! It opens straight up. You and Deus rush along the path until you suddenly crash into the Earthlings who open fire. Like a meteor shower and merciless, they are blinding and horrifying. Deus shield you from the shots. \"Lenny, you have to live, I did not get a chance to tell you everything that happened. Not about how I feel about you. About us. I am sorry.\" He has wry smile on his face as he closes his eyes. You are crestfallen. The only person you remember is dying right in front of you. In the moment, your life starts flashing before your eyes. How you and Deus first met in the academy. Your yearlong journey to Earth. How you joked about getting married when you returned. And, with that, you gave in. It was complete darkness followed by you joining Deus back in the icy Martian sands. It was the afterlife. You died.", lchoice: "", rchoice: "")
     
-    let lvl3_3 = Node(value: "Dead Chpater 2", lchoice: "Run", rchoice: "Sneak")
+    let lvl3_3 = Node(value: "It is a decision made in the spur of the moment and you choose to go back to the room where you just came from. Deus was visibly frustrated. He asks you to hide in those lockers. \"It is too obvious. They are expecting you to be in the room right from the beginning. We need to get out of here! \" You turn around to face Deus and your hearts skipped a beat. The Earthlings are clad in a kind of armor you had never seen before and are silently sneaking up behind him. You yell out to him asking him to take cover but it is too late. Blinding flashes and deafening roars fill the air from their blasters and Deus falls over dying before he even had a chance to say something. You are drowning with guilt. You legs give out and you drop down to your kennes. With a face as cold as the sandstorms, the earthling approaches you but you can not feel your surroundings anymore. They put on restrains on you and lock the door again. It was back to where it was moments ago, but this time you know there is nobody coming to help you. It is all over.", lchoice: "", rchoice: "")
+    
     let lvl3_4 = Node(value: "Third Chapter2", lchoice: "Run", rchoice: "Sneak")
     
     let lvl4_1 = Node(value: "Dead Chapter3", lchoice: "Run", rchoice: "Sneak")
@@ -38,19 +39,6 @@ class StoryTree : pageController {
     let lvl5_1 = Node(value: "Dead Chapter 1", lchoice: "Run", rchoice: "Sneak")
     let lvl5_2 = Node(value: "Fifth Chapter1", lchoice: "Run", rchoice: "Sneak")
     let lvl5_3 = Node(value: "Dead Chapter6", lchoice: "Run", rchoice: "Sneak")
-    let lvl5_4 = Node(value: "Fifth Chapter2", lchoice: "Run", rchoice: "Sneak")
-    
-    
-    let lvl6_1 = Node(value: "Dead Chapter 7", lchoice: "Run", rchoice: "Sneak")
-    let lvl6_2 = Node(value: "Sixth Chapter1", lchoice: "Run", rchoice: "Sneak")
-    let lvl6_3 = Node(value: "Sixth Chapter2", lchoice: "Run", rchoice: "Sneak")
-    let lvl6_4 = Node(value: "Sixth Chapter3", lchoice: "Run", rchoice: "Sneak")
-    let lvl6_5 = Node(value: "Dead Chapter 8", lchoice: "Run", rchoice: "Sneak")
-    
-    let lvl7_1 = Node(value: "Dead Chapter 11", lchoice: "Run", rchoice: "Sneak")
-    let lvl7_2 = Node(value: "Seventh Chapter1", lchoice: "Run", rchoice: "Sneak")
-    let lvl7_3 = Node(value: "Dead Chapter 12", lchoice: "Run", rchoice: "Sneak")
-    
     
     
     override func viewDidLoad() {
@@ -71,18 +59,9 @@ class StoryTree : pageController {
 
         lvl4_2.add(child: lvl5_1)
         lvl4_2.add(child: lvl5_2)
+        lvl4_3.add(child: lvl5_2)
         lvl4_3.add(child: lvl5_3)
-        lvl4_3.add(child: lvl5_4)
-        
-        lvl5_2.add(child: lvl6_1)
-        lvl5_2.add(child: lvl6_2)
-        lvl5_4.add(child: lvl6_2)
-        lvl5_4.add(child: lvl6_3)
-        
-        lvl6_2.add(child: lvl7_1)
-        lvl6_2.add(child: lvl7_1)
-        lvl6_3.add(child: lvl7_1)
-        lvl6_3.add(child: lvl7_1)
+
         
         traversal(node: curr)
     }
