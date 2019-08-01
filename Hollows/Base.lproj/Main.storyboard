@@ -346,7 +346,7 @@ Cg
             </objects>
             <point key="canvasLocation" x="1372" y="125"/>
         </scene>
-        <!--Chapter-->
+        <!--The Escape-->
         <scene sceneID="LJf-2I-PQC">
             <objects>
                 <viewController id="HSb-aj-Dmx" customClass="StoryTree" customModule="Hollows" customModuleProvider="target" sceneMemberID="viewController">
@@ -454,7 +454,7 @@ Cg
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SNM-Vo-9A3"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Chapter" id="jIv-mn-mXQ"/>
+                    <navigationItem key="navigationItem" title="The Escape" id="jIv-mn-mXQ"/>
                     <connections>
                         <outlet property="choice1" destination="69P-VF-bzt" id="g2g-iU-aKS"/>
                         <outlet property="choice2" destination="4MS-Md-E5I" id="zD2-On-mSz"/>

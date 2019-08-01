@@ -33,7 +33,8 @@ class StoryTree : pageController {
     
     let lvl4_1 = Node(value: " \"Deus! Stop, I think we should get rid of the Earthlings now. We can not keep running away like this for much longer. It would be wise if we finish them first and then look around for an escape pod or something.\" Deus seems reluctant. \"Looks like you have made up your mind. Let us give them a taste of what us Martians are made of then \", says Deus. The Earthlings are outside. You feel prepared to take them out and all your memories from the training that you did back at the academy Deus and you attended prior to your journey come back to you. You hear Deus squealing and start to feel uneasy yourself. You notice a green colored gas beginning to fill the entire chamber. You try to escape through the other door but it seems to be jammed now. \"Deus, I am sorry. I wish it did not have to end like this.\" You hold his hand in your final moments but fail to grasp all of what Deus what saying. You are dead.", lchoice: "", rchoice: "")
     
-    let lvl4_2 = Node(value: "Fourth Chapter1", lchoice: "Run", rchoice: "Sneak")
+    let lvl4_2 = Node(value: "You follow Deus through the door. You come across an imposing colossal structure. You have no idea what it was but you walk towards it to have a closer look. You are startled by a red laser scanning through and an entrance open up. It appears to be the remnants of your crashed ship. You enter the ship. You see the corpses of you crew. \"Looks like it is just the both of us that made it. All of the escape pods that we had for returning to their moon are broken too. Except one.\" Just as Deus finishes speaking, you hear the Earthlings approaching. You quickly shut the door. \"Lenny, you need to take the pod and leave. I promise I will find a way back to their Moon\" says Deus. Taking the pod seems like the impulsive and logical choice. You could get back up to rescue Lenny. On the other hand, you feel like you could easily take the Earthlings out because you now have access to all your weaponry. However, scouting the planet is what you were sent here for, and your mission is still not a complete failure yet. You look at the bodies of your crew again. You have to make one very critical decision that will be of great consequence.", lchoice: "Escape", rchoice: "Fight")
+    
     let lvl4_3 = Node(value: "Fourth Chapter2", lchoice: "Run", rchoice: "Sneak")
     let lvl4_4 = Node(value: "Dead Chapter4", lchoice: "Run", rchoice: "Sneak")
     
@@ -87,9 +88,22 @@ class StoryTree : pageController {
             storyTextView.text = node?.value
             choice1.setTitle(node?.lchoice, for: .normal)
             choice2.setTitle(node?.rchoice, for: .normal)
-            if node?.children.isEmpty == true {
-                choice1.isHidden = true
-                choice2.isHidden = true
+            if node?.children.isEmpty == true && curr !== lvl5_2 {
+                choice1.backgroundColor = UIColor.red
+                choice1.contentHorizontalAlignment = .right
+                choice2.contentHorizontalAlignment = .left
+                choice2.backgroundColor = UIColor.red
+                choice1.setTitle("YOU", for: .normal)
+                choice2.setTitle(" DIED", for: .normal)
+//                choice1.isHidden = true
+//                choice2.isHidden = true
+            } else if node?.children.isEmpty == true && curr === lvl5_2 {
+                choice1.backgroundColor = UIColor.green
+                choice1.contentHorizontalAlignment = .right
+                choice2.contentHorizontalAlignment = .left
+                choice2.backgroundColor = UIColor.green
+                choice1.setTitle("YOU SU", for: .normal)
+                choice2.setTitle("RVIVED", for: .normal)
             }
         } else {
             storyTextView.text = "You died"
