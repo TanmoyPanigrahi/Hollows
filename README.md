@@ -6,3 +6,6 @@ The app consists of a start view, followed by a navigation view consisting of th
 
 # Code
 The code is Hollows/Model and consists of a tree class for the story. It consists of StoryTree class, which is a binary tree and contains nodes of the Node class which contain the generic node info like references to parent nodes, child nodes, and the information to be displayed at their junction of the story. All of the leaves - barring one which is the good ending - are a bad ending. 
+
+# Note
+It was the first *almost decent* iOS app that I made and doesn't reflect my current capabilities as a developer. 
